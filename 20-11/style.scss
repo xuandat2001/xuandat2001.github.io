@@ -1,0 +1,86 @@
+@font-face{
+    font-family: 'lobster';
+    src:url("font/Lobster-Regular.ttf")
+
+}
+@font-face{
+    font-family: 'ZCOOL_XiaoWei';
+    src:url("font/ZCOOL_XiaoWei/ZCOOLXiaoWei-Regular.ttf")
+}
+.clearfix{
+    clear: both;
+    display: table;
+    content: "";
+}
+.content{
+    background: #D57684;
+    .container{
+        width:1140px;
+        margin:0 auto;
+        .sign_up{
+            width:960px;
+            height: 600px;
+            margin:0 auto;
+            padding: 52px 62px;
+            .bg_left{
+                width:50%;
+                height: 600px;
+                background: #d7cf65;
+                float:left;
+               img{
+                   width:380px;
+                   height: 259px;
+                   padding-left:46px ;
+                   padding-top:30px ;
+               }
+               .number{
+                   font-size: 60px;
+                   text-align: center;
+                   color:#33593A;
+                   font-family: 'lobster';
+               }
+               .text{
+                   text-align: center;
+                   text-transform: uppercase;
+                   color: #6e1a2a;
+                   font-family: 'ZCOOL_XiaoWei';
+               }
+
+            }
+            .bg_right{
+                width:50%;
+                height: 600px;
+                background: #33445B;
+               float:right;
+               textarea{
+                   width: 400px;
+                   background: #5f8cdf;
+                   border:1px solid #5f8cdf;
+                   margin-left:38px ;
+                   margin-top:50px;
+                   color:#fff;
+                   height:250px;
+               }
+               button{
+                   margin-top:20px;
+                   margin-left:90px ;
+                   width:300px;
+                   height:50px;
+                   background: #0069d9;
+                   border:1px solid #0069d9;
+                   color:#fff;
+                   font-family: 'lobster';
+
+               }
+               .text1{
+                   color:#fff;
+                   font-size: 16px;
+                   font-family: 'lobster';
+                   text-align: center;
+                   margin-top: 30px;
+
+               }
+            }
+        }
+    }
+}
